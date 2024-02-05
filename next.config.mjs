@@ -6,9 +6,12 @@ const nextConfig = {
         remotePatterns: [
             {
                 hostname: 'media.licdn.com',
-                protocol:'https'
+                protocol: 'https'
             }
         ]
+    },
+    experimental: {
+        serverActions: true
     }
 };
 
