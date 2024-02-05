@@ -3,11 +3,12 @@
 import React from "react";
 import SectionHeading from "./sectionHeading";
 import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-
+    const { ref } = useSectionInView("About");
     return (
-        <motion.section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.175 }} id="about">
+        <motion.section ref={ref} className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.175 }} id="about">
             <SectionHeading>About me</SectionHeading>
             <p className="mb-3">
                 I am a final year student at the <span className="font-medium">Indian Institue of Technology, Kharagpur</span> with major in <span className="font-medium">Biotechnology and Biochemical Engineering</span>.
