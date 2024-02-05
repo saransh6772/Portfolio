@@ -35,9 +35,26 @@ export const projectsData = [
     {
         title: "Ecommerce",
         description: "My Ecommerce project has features like filtering, sorting, pagination, authentication and payment. Please have a look.",
-        tags: ["React", "Node", "MongoDB", "Express", "Redux","TypeScript"],
-        projectUrl:"https://ecommerce-frontend-r19h6i23s-saranshs-projects.vercel.app/",
-        imageUrl:DarthVader
+        tags: ["React", "Node", "MongoDB", "Express", "Redux", "TypeScript"],
+        projectUrl: "https://ecommerce-frontend-r19h6i23s-saranshs-projects.vercel.app/",
+        imageUrl: DarthVader
+    },
+] as const;
+
+export const experiencesData = [
+    {
+        title: "Web Development Intern",
+        location: "Remote",
+        description: "Worked as a web development intern for 2 months at Bridge Healthcare Pvt. Ltd.",
+        icon: React.createElement(LuGraduationCap),
+        date: "June 2022 - July 2022",
+    },
+    {
+        title: "Software Development Intern",
+        location: "Remote",
+        description: "Worked as a software development intern for 2 months at CloudOptix Pvt. Ltd.",
+        icon: React.createElement(CgWorkAlt),
+        date: "May 2023 - July 2023",
     },
 ] as const;
 
