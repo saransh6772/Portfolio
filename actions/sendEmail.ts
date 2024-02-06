@@ -1,4 +1,5 @@
 "use server";
+
 import { getErrorMessage, validateString } from "@/lib/utils";
 import { Resend } from "resend";
 import ContactFormEmail from "@/email/contactFormEmail";

@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
 import DarthVader from "@/public/Darth_Vader.jpg";
 
 export const links = [
@@ -45,7 +44,7 @@ export const experiencesData = [
         title: "Web Development Intern",
         location: "Remote",
         description: "Worked as a web development intern for 2 months at Bridge Healthcare Pvt. Ltd.",
-        icon: React.createElement(LuGraduationCap),
+        icon: React.createElement(CgWorkAlt),
         date: "June 2022 - July 2022",
     },
     {
