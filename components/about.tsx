@@ -13,7 +13,7 @@ export default function About() {
             <p className="mb-3">
                 I am a final year undergraduate student at the <span className="font-medium">Indian Institute of Technology, Kharagpur</span> with major in <span className="font-medium">Biotechnology and Biochemical Engineering</span>.
                 <br />With a strong passion for problem-solving and technology, I aspire to apply my detail-oriented mindset and technical skills throughout my career.
-                <br />I love programming and I have keen interest in <span className="font-medium">Data Structures and Algorithms</span>.
+                <br />I love programming, and I have a keen interest in <span className="font-medium">Data Structures and Algorithms</span>.
                 <br />My core stack is <span className="font-medium">React, Next.js, Node.js, and MongoDB</span> and familiar with TypeScript & Prisma.
                 <br /> I am currently looking for a <span className="font-medium">full-time position</span> as a software developer.
             </p>
