@@ -50,15 +50,15 @@ export const projectsData = [
     },
     {
         title: "Electric Vehicle Market Segmentation",
-        description: "Analysed geographic, demographic and psychographic factors of 100 automobile owners and data from 28 states and 8 UTs. Deployed K-Means Clustering model and tested out different values of K using Elbow-plot method to predict appropriately",
+        description: "Analysed geographic, demographic and psychographic factors of 100 automobile owners and data from 28 states and 8 UTs. Deployed K-Means Clustering model and tested out different values of K using Elbow-plot method to predict appropriately.",
         tags: [],
         projectUrl: "https://github.com/saransh6772/Market-segmentation",
         imageUrl: MarketSegmentation
     },
     {
         title: "Opensoft GC 2022, IIT Kharagpur",
-        description: "Create a food delivery application to ensure the availability of essential services during the downtime of data centre. Top 5",
-        tags: ["Django", "React", "Grafana", "Kubernetes", "Docker"],
+        description: "Create a food delivery app to ensure the availability of essential services during the data center's downtime. The team was in the Top 5.",
+        tags: ["Django", "React", "Grafana", "Kubernetes", "Docker", "MySQL"],
         projectUrl: "https://github.com/rkhall-iitkgp/restaurant-app-frontend",
         imageUrl: Opensoft
     },
