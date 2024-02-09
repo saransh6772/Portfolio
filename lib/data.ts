@@ -3,6 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import Ecommerce from "@/public/Ecommerce.jpg";
 import Opensoft from "@/public/Opensoft_2022.jpg";
 import ProductDesign from "@/public/Product_Design_2023.jpg";
+import QuizGame from "@/public/Quiz_Game.jpg";
+import MarketSegmentation from "@/public/Market_Segmentation.jpg";
 
 export const links = [
     {
@@ -40,6 +42,20 @@ export const projectsData = [
         imageUrl: Ecommerce
     },
     {
+        title: "Quiz Game",
+        description: "This is a complete Mobile responsive MERN stack based application using redux for state management and open trivia DB for fetching questions.",
+        tags: ["Redux", "React", "Node", "Express", "MongoDB"],
+        projectUrl: "https://frosty-tereshkova-506a62.netlify.app/",
+        imageUrl: QuizGame
+    },
+    {
+        title: "Electric Vehicle Market Segmentation",
+        description: "Analysed geographic, demographic and psychographic factors of 100 automobile owners and data from 28 states and 8 UTs. Deployed K-Means Clustering model and tested out different values of K using Elbow-plot method to predict appropriately",
+        tags: [],
+        projectUrl: "https://github.com/saransh6772/Market-segmentation",
+        imageUrl: MarketSegmentation
+    },
+    {
         title: "Opensoft GC 2022, IIT Kharagpur",
         description: "Create a food delivery application to ensure the availability of essential services during the downtime of data centre. Top 5",
         tags: ["Django", "React", "Grafana", "Kubernetes", "Docker"],
@@ -48,11 +64,11 @@ export const projectsData = [
     },
     {
         title: "Product Design GC 2023, IIT Kharagpur",
-        description: "Design a hardware product to ensure that the rider wears the helmet all the time and does not ride under the influence of alcohol via restricting the use in these circumstances. Gold",
+        description: "Design a hardware product to ensure that the rider wears the helmet all the time and does not ride under the influence of alcohol via restricting the use in these circumstances. Led the team to win the Gold Medal.",
         tags: [],
-        projectUrl: "https://drive.google.com/file/d/1nr8PAh3EPaDKv98-92FEQfS-VxSuWMMx/view?usp=sharing",
+        projectUrl: "https://docs.google.com/document/d/1fNaDZOdzVQoS9Q68Q_Lxu21W2-upQPD9ZcLTdgg47xg/edit?usp=sharing",
         imageUrl: ProductDesign
-    }
+    },
 ] as const;
 
 export const experiencesData = [
