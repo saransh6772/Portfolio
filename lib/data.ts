@@ -36,7 +36,7 @@ export const projectsData = [
         title: "Ecommerce",
         description: "My Ecommerce project has features like filtering, sorting, pagination, authentication and payment. It has an admin dashboard for analytics and management.",
         tags: ["React", "Node", "MongoDB", "Express", "Redux", "TypeScript"],
-        projectUrl: "https://ecommerce-frontend-f1il0utri-saranshs-projects.vercel.app/",
+        projectUrl: "https://saransh-parikh-ecommerce.vercel.app/",
         imageUrl: Ecommerce
     },
     {
