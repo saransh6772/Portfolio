@@ -20,7 +20,7 @@ export default function Project({ title, description, tags, imageUrl, projectUrl
                 <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
                     <h3 className="text-2xl font-semibold">{title}</h3>
                     <p className="mt-2 leading-relaxed text-[0.9rem] text-gray-700 dark:text-white/70">{description}</p>
-                    <Link className='group bg-gray-900 text-white text-[0.75rem] px-3 py-1 flex flex-wrap rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition p-3' href={projectUrl}>Project Link</Link>
+                    <Link className='group bg-gray-900 text-white text-[0.9rem] px-3 py-1 flex flex-wrap rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition p-3' href={projectUrl}>Project Link</Link>
                     <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
                         {tags.map((tag, index) => (
                             <li className="bg-black/[0.7] px-3 py-1 text-[0.6rem] uppercase tracking-wider text-white rounded-full dark:text-white/70" key={index}>

@@ -5,6 +5,9 @@ import Opensoft from "@/public/Opensoft_2022.jpg";
 import ProductDesign from "@/public/Product_Design_2023.jpg";
 import QuizGame from "@/public/Quiz_Game.jpg";
 import MarketSegmentation from "@/public/Market_Segmentation.jpg";
+import ChatApp from "@/public/Chat_App.jpg";
+import StockMarketSimulator from "@/public/Stock_Market_Simulator.jpg";
+import IntradayTradingIndicator from "@/public/Intraday_Trading_Indicator.jpg";
 
 export const links = [
     {
@@ -35,6 +38,13 @@ export const links = [
 
 export const projectsData = [
     {
+        title: "Chat App",
+        description: "A real-time chat application where users can send requests and chat with each other. It has features like send attachments, create groups as well as an admin dashboard.",
+        tags: ["React", "Node", "MongoDB", "Express", "Socket.io", "Redux"],
+        projectUrl: "https://saransh-parikh-chat-app.vercel.app/",
+        imageUrl: ChatApp
+    },
+    {
         title: "Ecommerce",
         description: "My Ecommerce project has features like filtering, sorting, pagination, authentication and payment. It has an admin dashboard for analytics and management.",
         tags: ["React", "Node", "MongoDB", "Express", "Redux", "TypeScript"],
@@ -44,9 +54,23 @@ export const projectsData = [
     {
         title: "Quiz Game",
         description: "This is a complete Mobile responsive MERN stack based application using redux for state management and open trivia DB for fetching questions.",
-        tags: ["Redux", "React", "Node", "Express", "MongoDB"],
+        tags: ["Redux", "React", "Node", "Express", "Open Trivia DB"],
         projectUrl: "https://frosty-tereshkova-506a62.netlify.app/",
         imageUrl: QuizGame
+    },
+    {
+        title: "Intraday Trading Indicator",
+        description: "Implemented a strategy that yielded 14% return as compared to 2% return given by any market trade instrument for that day. Used SVM to get F1 score of 78.",
+        tags: [],
+        projectUrl: "https://github.com/saransh6772/Intraday-Trading",
+        imageUrl: IntradayTradingIndicator
+    },
+    {
+        title: "Stock Market Simulator",
+        description: "Predicted the market returns through Monte Carlo simulation via metrics such as Beta, Sharpe Ratio and CAPM for live data of the US market instruments.",
+        tags: [],
+        projectUrl: "https://github.com/saransh6772/Monte-Carlo",
+        imageUrl: StockMarketSimulator
     },
     {
         title: "Electric Vehicle Market Segmentation",
@@ -90,23 +114,28 @@ export const experiencesData = [
 
 export const skillsData = [
     "C++",
-    "HTML",
-    "CSS",
     "JavaScript",
     "TypeScript",
-    "React",
+    "React.js",
     "Next.js",
     "Node.js",
-    "Git",
-    "Tailwind",
     "Prisma",
     "MongoDB",
     "Redux",
     "Express",
+    "Socket.io",
+    "InfluxDB",
+    "Git",
+    "Tailwind",
     "Python",
     "Django",
     "Framer Motion",
-    "InfluxDB",
     "Docker",
     "Telegraf",
+    "Grafana",
+    "HTML",
+    "CSS",
+    "Kubernetes",
+    "MySQL",
+    "PostgreSQL",
 ] as const;
