@@ -24,9 +24,10 @@ export default function Intro() {
             </div>
             <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
                 <span className="font-bold">Hello, I'm Saransh.</span>
+                <br />I'm a <span className="font-bold">Expert</span> at <span className="font-bold">Codeforces</span>.
+                <br />I love <span className="underline">Data Structures and Algorithms</span>.
                 <br />I'm a <span className="font-bold">full-stack developer</span>.
                 <br />I enjoy building <span className="italic">products</span>.
-                <br />I love <span className="underline">Data Structures and Algorithms</span>.
             </motion.h1>
             <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1, }}>
                 <Link className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition' href="#contact" onClick={() => { setActiveSection("Contact"); setTimeOfLastClick(Date.now()) }}>Contact Me Here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" /></Link>
