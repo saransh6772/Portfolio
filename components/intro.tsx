@@ -9,6 +9,7 @@ import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/activeSectionContext';
+import Saransh from "@/public/Saransh.jpg";
 
 export default function Intro() {
     const { ref } = useSectionInView("Home", 0.5);
@@ -18,7 +19,7 @@ export default function Intro() {
             <div className="flex items-center justify-center">
                 <div className='relative'>
                     <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: "spring", duration: 0.2, }}>
-                        <Image src="https://media.licdn.com/dms/image/D4D03AQHsWE0xqo7LZw/profile-displayphoto-shrink_400_400/0/1703247716574?e=1712188800&v=beta&t=CG17BcvTymUo4xzkaVphUanyILvhwZHntoN9U4GB-J0" alt='Saransh Parikh' width="192" height="192" quality="100" priority={true} className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl" />
+                        <Image src={Saransh} alt='Saransh Parikh' width="192" height="192" quality="100" priority={true} className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl" />
                     </motion.div>
                 </div>
             </div>
