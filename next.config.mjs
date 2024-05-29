@@ -9,9 +9,6 @@ const nextConfig = {
                 protocol: 'https'
             }
         ]
-    },
-    experimental: {
-        serverActions: true
     }
 };
 
