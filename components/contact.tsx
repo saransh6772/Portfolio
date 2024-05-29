@@ -5,7 +5,7 @@ import React from 'react'
 import SectionHeading from './sectionHeading'
 import { motion } from 'framer-motion';
 import { sendEmail } from '@/actions/sendEmail';
-import SubmitBtn from './submitBtn';
+import SubmitButton from './submitButton';
 import toast from 'react-hot-toast';
 
 const emailAction = async(formData:FormData)=>{
@@ -28,7 +28,7 @@ export default function Contact() {
             <form action={emailAction} className="mt-10 flex flex-col dark:text-black">
                 <input required maxLength={500} placeholder="Your email" name="senderEmail" type="email" className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none" />
                 <textarea required maxLength={5000} placeholder="Your message" name="message" className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none" />
-                <SubmitBtn/>
+                <SubmitButton/>
             </form>
         </motion.section>
     )
