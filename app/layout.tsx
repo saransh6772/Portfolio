@@ -11,7 +11,7 @@ import ThemeContextProvider from "@/context/themeContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saransh's | Personal Portfolio",
+  title: "Saransh's Personal Portfolio",
   description: "Saransh is a Full-Stack developer and has a keen interest in Data Structures and Algorithms.",
 };
 
