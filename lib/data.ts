@@ -59,6 +59,20 @@ export const projectsData = [
         imageUrl: QuizGame
     },
     {
+        title: "Opensoft GC 2022, IIT Kharagpur",
+        description: "Create a food delivery app to ensure the availability of essential services during the data center's downtime. The team was in the Top 5.",
+        tags: ["Django", "React", "Grafana", "Kubernetes", "Docker", "MySQL"],
+        projectUrl: "https://github.com/rkhall-iitkgp/restaurant-app-frontend",
+        imageUrl: Opensoft
+    },
+    {
+        title: "Product Design GC 2023, IIT Kharagpur",
+        description: "Design a hardware product to ensure that the rider wears the helmet all the time and does not ride under the influence of alcohol via restricting the use in these circumstances. Led the team to win the Gold Medal.",
+        tags: [],
+        projectUrl: "https://docs.google.com/document/d/1fNaDZOdzVQoS9Q68Q_Lxu21W2-upQPD9ZcLTdgg47xg/edit?usp=sharing",
+        imageUrl: ProductDesign
+    },
+    {
         title: "Intraday Trading Indicator",
         description: "Implemented a strategy that yielded 14% return as compared to 2% return given by any market trade instrument for that day. Used SVM to get F1 score of 78.",
         tags: [],
@@ -79,29 +93,15 @@ export const projectsData = [
         projectUrl: "https://github.com/saransh6772/Market-segmentation",
         imageUrl: MarketSegmentation
     },
-    {
-        title: "Opensoft GC 2022, IIT Kharagpur",
-        description: "Create a food delivery app to ensure the availability of essential services during the data center's downtime. The team was in the Top 5.",
-        tags: ["Django", "React", "Grafana", "Kubernetes", "Docker", "MySQL"],
-        projectUrl: "https://github.com/rkhall-iitkgp/restaurant-app-frontend",
-        imageUrl: Opensoft
-    },
-    {
-        title: "Product Design GC 2023, IIT Kharagpur",
-        description: "Design a hardware product to ensure that the rider wears the helmet all the time and does not ride under the influence of alcohol via restricting the use in these circumstances. Led the team to win the Gold Medal.",
-        tags: [],
-        projectUrl: "https://docs.google.com/document/d/1fNaDZOdzVQoS9Q68Q_Lxu21W2-upQPD9ZcLTdgg47xg/edit?usp=sharing",
-        imageUrl: ProductDesign
-    },
 ] as const;
 
 export const experiencesData = [
     {
-        title: "Web Development Intern",
-        location: "Remote",
-        description: "Worked as a web development intern for 2 months at Bridge Healthcare Pvt. Ltd.",
+        title: "Software Developer",
+        location: "Gurgaon / Gururgram",
+        description: "Currently working as a software developer at Wishlink (Creatormon Pvt. Ltd.).",
         icon: React.createElement(CgWorkAlt),
-        date: "June 2022 - July 2022",
+        date: "July 2024 - Present"
     },
     {
         title: "Software Development Intern",
@@ -110,16 +110,28 @@ export const experiencesData = [
         icon: React.createElement(CgWorkAlt),
         date: "May 2023 - July 2023",
     },
+    {
+        title: "Web Development Intern",
+        location: "Remote",
+        description: "Worked as a web development intern for 2 months at Bridge Healthcare Pvt. Ltd.",
+        icon: React.createElement(CgWorkAlt),
+        date: "June 2022 - July 2022",
+    },
 ] as const;
 
 export const skillsData = [
     "C++",
+    "C",
+    "Python",
     "JavaScript",
     "TypeScript",
+    "Django",
     "React.js",
     "Next.js",
     "Node.js",
     "Prisma",
+    "PostgreSQL",
+    "MySQL",
     "MongoDB",
     "Redux",
     "Express",
@@ -127,8 +139,6 @@ export const skillsData = [
     "InfluxDB",
     "Git",
     "Tailwind",
-    "Python",
-    "Django",
     "Framer Motion",
     "Docker",
     "Telegraf",
@@ -136,6 +146,4 @@ export const skillsData = [
     "HTML",
     "CSS",
     "Kubernetes",
-    "MySQL",
-    "PostgreSQL",
 ] as const;
